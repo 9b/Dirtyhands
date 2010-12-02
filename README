@@ -1,0 +1,14 @@
+== Known Issues ==
+* Google won't recursively let you pull all results of a search
+* No guarantee that files will be downloaded (doesn't account for 404 errors)
+* Amount does not represent the amount of files to be downloaded directly
+* Google will suspect abuse if queried too fast, too often
+
+== Plans ==
+* Add in annonymous downloaded (trick Google)
+* Check the amount and pad when needed
+* Guarentee file download or error
+* Intake lists as is instead of pre-parsed
+* Schedule download times from multiple sources
+* Recursively go through Google results to get the most amount of files
+* Add scan option post download
